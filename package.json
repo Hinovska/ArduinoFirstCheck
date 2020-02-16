@@ -1,0 +1,16 @@
+{
+  "name": "blink-node",
+  "version": "1.0.0",
+  "description": "Ardiuno Led Conection an logic execution by Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "reset": "firmata-party uno --debug"
+  },
+  "keywords": [],
+  "author": "Andres Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "firmata-party": "^2.0.0",
+    "johnny-five": "^1.4.0"
+  }
+}
